@@ -1,0 +1,64 @@
+[
+    {
+     "id": 1,
+     "name": "Bed",
+     "category": [
+        {
+            "name": "Wood"
+        },
+        {
+          "name": "Furniture"
+      }
+      ]
+    },
+     {
+        "id": 2,
+        "name": "BathRoom",
+        "category": [
+            {
+                "id": 20,
+                "name": "Wood"
+            },
+            {
+                "id": 40,
+              "name": "Furniture"
+          }
+          ]
+       },
+       {
+        "id": 3,
+        "name": "Van",
+        "category": [
+          {
+              "name": "Wood"
+          },
+          {
+            "name": "Furniture"
+        }
+        ]
+       },
+       {
+        "id": 4,
+        "name": "Table",
+        "category": [
+            {
+                "name": "Wood"
+            },
+            {
+              "name": "Furniture"
+          }
+          ]
+       },
+       {
+        "id": 5,
+        "name": "Window",
+        "category": [
+            {
+                "name": "Wood"
+            },
+            {
+              "name": "Furniture"
+          }
+          ]
+       }
+]
