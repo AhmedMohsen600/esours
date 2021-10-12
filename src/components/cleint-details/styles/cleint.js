@@ -17,7 +17,7 @@ export const Container = styled.div`
 `;
 
 export const Inner = styled.div`
-  width: 95%;
+  width: 87%;
   margin: auto;
   display: flex;
   gap: 24px;
@@ -25,7 +25,7 @@ export const Inner = styled.div`
   transform: ${({ show }) => (show ? "translateX(0%)" : "translateX(80%)")};
   background-color: transparent;
   opacity: ${({ show }) => (show ? "1" : "0")};
-  height: 80%;
+  height: 60%;
 `;
 
 export const Info = styled.div`
