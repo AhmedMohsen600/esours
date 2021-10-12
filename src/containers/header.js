@@ -63,8 +63,8 @@ export function HeaderContainer({ setSlides, category, setCategory }) {
             Accessories
           </Header.FilterButton>
           <Header.FilterButton
-            active={category === "textiles" ? true : false}
-            onClick={() => setCategory("textiles")}
+            active={category === "textile" ? true : false}
+            onClick={() => setCategory("textile")}
           >
             Textiles
           </Header.FilterButton>

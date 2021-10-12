@@ -1,18 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HeaderContainer } from "../containers/header";
 import { HeroContainer } from "../containers/hero";
+import { getItem, setItem } from "../lib/helper";
 export default function Home() {
   const [category, setCategory] = useState("all");
-  const [slides, setSlides] = useState([]);
-  console.log(category);
+
+  // const [shortList, setShortList] = useState(getItem());
+  // console.log(category);
+  // useEffect(() => {
+  //   setItem();
+  // }, []);
   return (
     <>
-      <HeaderContainer
-        category={category}
-        setCategory={setCategory}
-        setSlides={setSlides}
-      />
-      <HeroContainer />
+      <HeaderContainer setCategory={setCategory} category={category} />
+      <HeroContainer category={category} setCategory={setCategory} />
     </>
   );
 }

@@ -12,7 +12,7 @@ export default function Rejected() {
         setCategory={setCategory}
         setSlides={setSlides}
       />
-      <HeroContainer />
+      <HeroContainer category={category} />
     </>
   );
 }

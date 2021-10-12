@@ -1,33 +1,36 @@
 import React, { useEffect, useState } from "react";
-import { Hero, ClientModal, Slider } from "../components";
+import { Hero, ClientModal, SliderBdan } from "../components";
 import cardData from "../data/card.json";
-export function HeroContainer() {
+import filteredData from "../data/data.json";
+export function HeroContainer({ category }) {
   const [show, setShow] = useState(false);
   const [cardObj, setCardOjb] = useState(
     JSON.parse(localStorage.getItem("card")) || {}
   );
-  useEffect(() => {}, []);
+  const data = [1, 2, 3, 4, 5, 6];
+
+  console.log({ filteredData: filteredData[category], category });
+  console.log(cardObj);
   return (
     <>
       <Hero>
         <Hero.CardsHolder>
-          {cardData.map((card) => (
+          {filteredData[category].map((card) => (
             <Hero.Card
               onClick={() => {
                 localStorage.setItem("card", JSON.stringify(card));
                 setCardOjb(card);
-                console.log("trash");
                 setShow(true);
               }}
               key={card.id}
             >
               <Hero.Picture />
               <Hero.Info>
-                <Hero.CleintId>{card.id}</Hero.CleintId>
-                <Hero.ProductName>{card.name}</Hero.ProductName>
+                <Hero.CleintId>#{card.id}</Hero.CleintId>
+                <Hero.ProductName>{card.productName}</Hero.ProductName>
                 <Hero.Group>
-                  {card.category.map((single, index) => (
-                    <Hero.Position key={index}>{single.name}</Hero.Position>
+                  {card.categories.map((category, index) => (
+                    <Hero.Position key={index}>{category}</Hero.Position>
                   ))}
                 </Hero.Group>
               </Hero.Info>
@@ -36,42 +39,44 @@ export function HeroContainer() {
         </Hero.CardsHolder>
       </Hero>
       <ClientModal show={show}>
-        <Slider>
-          <ClientModal.Inner show={show}>
-            <ClientModal.Info>
-              <Hero.CleintId>{cardObj.id || ""}</Hero.CleintId>
-              <Hero.ProductName>{cardObj.name || ""}</Hero.ProductName>
-              <Hero.Group>
-                {cardObj.category
-                  ? cardObj.category.map((card, index) => (
-                      <Hero.Position key={index}>{card.name}</Hero.Position>
-                    ))
-                  : ""}
-              </Hero.Group>
-              <ClientModal.Title>Note of the intention</ClientModal.Title>
-              <ClientModal.Description>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi,
-                odio.
-              </ClientModal.Description>
-              <ClientModal.Title>Note of the intention</ClientModal.Title>
-              <ClientModal.Description>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi,
-                odio.
-              </ClientModal.Description>
-              <ClientModal.Title>Note of the intention</ClientModal.Title>
-              <ClientModal.Description>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi,
-                odio.
-              </ClientModal.Description>
-              <ClientModal.Title>Note of the intention</ClientModal.Title>
-              <ClientModal.Description>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi,
-                odio.
-              </ClientModal.Description>
-            </ClientModal.Info>
-            <ClientModal.SliderContainer></ClientModal.SliderContainer>
-          </ClientModal.Inner>
-        </Slider>
+        <SliderBdan>
+          {data.map((koko) => (
+            <ClientModal.Inner show={show}>
+              <ClientModal.Info>
+                <Hero.CleintId>#{cardObj.id || ""}</Hero.CleintId>
+                <Hero.ProductName>{cardObj.productName || ""}</Hero.ProductName>
+                <Hero.Group>
+                  {cardObj.categories
+                    ? cardObj.categories.map((card, index) => (
+                        <Hero.Position key={index}>{card}</Hero.Position>
+                      ))
+                    : ""}
+                </Hero.Group>
+                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Description>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nisi, odio.
+                </ClientModal.Description>
+                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Description>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nisi, odio.
+                </ClientModal.Description>
+                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Description>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nisi, odio.
+                </ClientModal.Description>
+                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Description>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nisi, odio.
+                </ClientModal.Description>
+              </ClientModal.Info>
+              <ClientModal.SliderContainer></ClientModal.SliderContainer>
+            </ClientModal.Inner>
+          ))}
+        </SliderBdan>
       </ClientModal>
     </>
   );
