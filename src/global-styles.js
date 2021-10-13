@@ -16,15 +16,13 @@ export const GlobalStyle = createGlobalStyle`
     transform: scale(1.3);
     outline: 1px solid yellow;
  }
- .react-multi-carousel-list{
-    width: 100% ;
-    height: 100%;
-    /* display: flex ;
-    justify-content: flex-start ;
-    align-items: center; */
- }  
- .react-multi-carousel-item{
-     /* height: 100% !important;  */
-      /* overflow-y: scroll !important;  */
- }
+ .carousel .thumb img {
+   width: 100% !important;
+   height: 100% !important;
+}
+
+.carousel .slide img {
+   max-height: 90vh;  /* change this to whatever you want */
+   width: 100%;
+}
 `;

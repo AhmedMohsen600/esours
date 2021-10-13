@@ -72,8 +72,8 @@ export function HeroContainer({ category }) {
                 <Hero.Group>
                   {product.categories
                     ? product.categories.map((c, i) => (
-                        <Hero.Position key={i}>{c}</Hero.Position>
-                      ))
+                      <Hero.Position key={i}>{c}</Hero.Position>
+                    ))
                     : ""}
                 </Hero.Group>
                 <ClientModal.Title>Note of the intention</ClientModal.Title>

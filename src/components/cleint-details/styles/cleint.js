@@ -6,7 +6,7 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  
   transition: opacity 0.5s ease 0.1s;
   pointer-events: ${({ show }) => (show ? "all" : "none")};
   opacity: ${({ show }) => (show ? "1" : "0")};
@@ -19,39 +19,33 @@ export const Inner = styled.div`
   margin: auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
   transition: all 0.5s ease 0.2s;
   transform: ${({ show }) => (show ? "translateX(0%)" : "translateX(80%)")};
   background-color: transparent;
   opacity: ${({ show }) => (show ? "1" : "0")};
-  height: 100%;
+  height: 100vh;
 `;
 
 export const Info = styled.div`
-  height: 63.3%;
+  height: 90vh;
   overflow-y: scroll;
   display: flex;
-  align-self: center;
   flex-direction: column;
   gap: 48px;
   flex: 1;
   padding: 40px;
   background-color: white;
   border-radius: 16px;
-  @media (max-width: 1070px) {
-    height: 50%;
-  }
-  @media (min-width: 1300px) {
-    height: 60%;
-  }
-  @media (min-width: 2000px) {
-    height: 80%;
+
   }
 `;
 
 export const SliderContainer = styled.div`
   flex: 2;
+  height: 90vh;
+
 `;
 
 export const Title = styled.h6`

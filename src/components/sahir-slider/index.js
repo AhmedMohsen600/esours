@@ -4,17 +4,20 @@ import { Carousel } from "react-responsive-carousel";
 
 export default function ImageGallaryComponent({ imgData }) {
   return (
-      <Carousel transitionTime="500">
-        {imgData &&
-          imgData.map((img) => (
-            <div key={img} style={{ width: "100%" }}>
-              <img
-                alt=""
-                src={img}
-                style={{ width: "100%", objectFit: "contain", height: "100%" }}
-              />
-            </div>
-          ))}
-      </Carousel>
+    <Carousel dynamicHeight={true} showArrows={false} transitionTime="500">
+      {imgData &&
+        imgData.map((img) => (
+          <div key={img} >
+            <img
+              style={{ objectFit: 'cover', aspectRatio: '1.5' }}
+              alt=""
+              src={img}
+
+            />
+          </div>
+        ))}
+    </Carousel>
+
+
   );
 }
