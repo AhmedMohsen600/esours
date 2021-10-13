@@ -5,11 +5,6 @@ import { getItem, setItem } from "../lib/helper";
 export default function Home() {
   const [category, setCategory] = useState("all");
 
-  // const [shortList, setShortList] = useState(getItem());
-  // console.log(category);
-  // useEffect(() => {
-  //   setItem();
-  // }, []);
   return (
     <>
       <HeaderContainer setCategory={setCategory} category={category} />
