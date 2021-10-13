@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router";
-import { Hero, ClientModal, SliderHolder } from "../components";
+import { Hero, ClientModal, SliderHolder, ImageGallaryComponent } from "../components";
 import filteredData from "../data/data.json";
 import { getItem } from "../lib/helper";
 export function HeroContainer({ category }) {
@@ -42,7 +42,13 @@ export function HeroContainer({ category }) {
               }}
               key={card.id}
             >
-              <Hero.Picture />
+              <Hero.Picture>
+                <img
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  src={card.img}
+                  alt=""
+                />
+              </Hero.Picture>
               <Hero.Info>
                 <Hero.CleintId>#{card.id}</Hero.CleintId>
                 <Hero.ProductName>{card.productName}</Hero.ProductName>
@@ -58,40 +64,63 @@ export function HeroContainer({ category }) {
       </Hero>
       <ClientModal show={show}>
         <SliderHolder>
-          {data.map((koko) => (
+          {dataToShow.map((product) => (
             <ClientModal.Inner show={show}>
               <ClientModal.Info>
-                <Hero.CleintId>#{cardObj.id || ""}</Hero.CleintId>
-                <Hero.ProductName>{cardObj.productName || ""}</Hero.ProductName>
+                <Hero.CleintId>#{product.id}</Hero.CleintId>
+                <Hero.ProductName>{product.productName}</Hero.ProductName>
                 <Hero.Group>
-                  {cardObj.categories
-                    ? cardObj.categories.map((card, index) => (
-                        <Hero.Position key={index}>{card}</Hero.Position>
+                  {product.categories
+                    ? product.categories.map((c, i) => (
+                        <Hero.Position key={i}>{c}</Hero.Position>
                       ))
                     : ""}
                 </Hero.Group>
                 <ClientModal.Title>Note of the intention</ClientModal.Title>
                 <ClientModal.Description>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nisi, odio.
+                  {product.a1}
                 </ClientModal.Description>
-                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Title>About the product development & research</ClientModal.Title>
                 <ClientModal.Description>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nisi, odio.
+                  {product.a2}
                 </ClientModal.Description>
-                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Title>Does this product tackle the "Sustainability" criteria?</ClientModal.Title>
                 <ClientModal.Description>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nisi, odio.
+                  {product.q1}
                 </ClientModal.Description>
-                <ClientModal.Title>Note of the intention</ClientModal.Title>
+                <ClientModal.Title>How is the criteria fulfilled?</ClientModal.Title>
                 <ClientModal.Description>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nisi, odio.
+                  {product.q2}
                 </ClientModal.Description>
+                <ClientModal.Title>Does this product tackle the "Functionality" criteria?</ClientModal.Title>
+                <ClientModal.Description>
+                  {product.q3}
+                </ClientModal.Description>
+                <ClientModal.Title>How is the criteria fulfilled?</ClientModal.Title>
+                <ClientModal.Description>
+                  {product.q4}
+                </ClientModal.Description>
+                <ClientModal.Title>Does this product tackle the "Innovation" criteria?</ClientModal.Title>
+                <ClientModal.Description>
+                  {product.q5}
+                </ClientModal.Description>
+                <ClientModal.Title>How is the criteria fulfilled?</ClientModal.Title>
+                <ClientModal.Description>
+                  {product.q6}
+                </ClientModal.Description>
+                <ClientModal.Title>Does this product tackle the "Feasbility" criteria?</ClientModal.Title>
+                <ClientModal.Description>
+                  {product.q7}
+                </ClientModal.Description>
+                <ClientModal.Title>How is the criteria fulfilled?</ClientModal.Title>
+                <ClientModal.Description>
+                  {product.q8}
+                </ClientModal.Description>
+
               </ClientModal.Info>
-              <ClientModal.SliderContainer></ClientModal.SliderContainer>
+              <ClientModal.SliderContainer>
+                <ImageGallaryComponent imgData={product.images} />
+              </ClientModal.SliderContainer>
             </ClientModal.Inner>
           ))}
         </SliderHolder>
