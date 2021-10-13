@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
  body{
     background-color: #f4f4f4;
     font-family: 'Inter', sans-serif;
+   
  }
  .active {
     transform: scale(1.3);
@@ -17,12 +18,13 @@ export const GlobalStyle = createGlobalStyle`
  }
  .react-multi-carousel-list{
     width: 100% ;
-    display: flex ;
+    height: 100%;
+    /* display: flex ;
     justify-content: flex-start ;
-    align-items: center;
- } 
+    align-items: center; */
+ }  
  .react-multi-carousel-item{
-     /* height: 100% !important; */
-     /* overflow-y: scroll !important; */
+     /* height: 100% !important;  */
+      /* overflow-y: scroll !important;  */
  }
 `;
