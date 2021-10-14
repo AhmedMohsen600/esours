@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router";
-import { Hero, ClientModal, SliderHolder } from "../components";
+import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
 import filteredData from "../data/data.json";
 import { getItem } from "../lib/helper";
 export function HeroContainer({ category }) {
@@ -119,9 +119,10 @@ export function HeroContainer({ category }) {
                 <ClientModal.Description>{product.q8}</ClientModal.Description>
               </ClientModal.Info>
               <ClientModal.ImagesHolder>
-                {filteredData.all.map((img, index) => (
-                  <ClientModal.Image key={index} src={img.img} />
-                ))}
+                {product.images &&
+                  product.images.map((img, index) => (
+                    <MyImage key={index} src={img} />
+                  ))}
               </ClientModal.ImagesHolder>
             </ClientModal.Inner>
           ))}
