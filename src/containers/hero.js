@@ -5,9 +5,9 @@ import filteredData from "../data/data.json";
 import { getItem } from "../lib/helper";
 export function HeroContainer({ category }) {
   const [show, setShow] = useState(false);
-  const [cardObj, setCardOjb] = useState(
-    JSON.parse(localStorage.getItem("card")) || {}
-  );
+  // const [cardObj, setCardOjb] = useState(
+  //   JSON.parse(localStorage.getItem("card")) || {}
+  // );
 
   const { pathname } = useLocation();
 
@@ -38,7 +38,7 @@ export function HeroContainer({ category }) {
             <Hero.Card
               onClick={() => {
                 localStorage.setItem("card", JSON.stringify(card));
-                setCardOjb(card);
+                // setCardOjb(card);
                 setShow(true);
               }}
               key={card.id}

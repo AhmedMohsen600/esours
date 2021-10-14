@@ -21,10 +21,10 @@ export function addItemToList(key, itemToAdd) {
    * set the new item in rejected array
    */
   const shortlist = getItem(key);
-  let newShortlist = [];
+  // let newShortlist = [];
   for (let item of shortlist) {
     if (itemToAdd === item) {
-      newShortlist = shortlist.filter((f) => f !== itemToAdd);
+      // newShortlist = shortlist.filter((f) => f !== itemToAdd);
       break;
     }
   }
