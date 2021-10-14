@@ -21,6 +21,7 @@ export const Card = styled.div`
   border: 0.1vw solid #d9d9d9;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
 
 export const ProductName = styled.h4`

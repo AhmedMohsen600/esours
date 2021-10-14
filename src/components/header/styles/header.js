@@ -44,6 +44,7 @@ export const FilterButton = styled.button`
   font-size: 1.1vw;
   line-height: 1.2;
   font-weight: 400;
+  cursor: pointer;
   color: #000000;
   border: ${({ active }) => (active ? `0.2vw solid #030303` : `0.1vw`)};
 `;
@@ -69,6 +70,7 @@ export const Link = styled(ReactRouterLink)`
   color: ${({ selected }) => (selected ? "#ffc500" : "#ffffff")};
   text-decoration: none;
   line-height: 1.2;
+  cursor: pointer;
   border-bottom: ${({ selected }) => (selected ? "2px solid #ffc500" : "")};
 `;
 
