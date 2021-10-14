@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/esours/static/js/main.fbb2c9ae.chunk.js",
+    "main.js.map": "/esours/static/js/main.fbb2c9ae.chunk.js.map",
+    "runtime-main.js": "/esours/static/js/runtime-main.f44ab1fe.js",
+    "runtime-main.js.map": "/esours/static/js/runtime-main.f44ab1fe.js.map",
+    "static/css/2.f24ee6b7.chunk.css": "/esours/static/css/2.f24ee6b7.chunk.css",
+    "static/js/2.3384f18b.chunk.js": "/esours/static/js/2.3384f18b.chunk.js",
+    "static/js/2.3384f18b.chunk.js.map": "/esours/static/js/2.3384f18b.chunk.js.map",
+    "static/js/3.d6d60bee.chunk.js": "/esours/static/js/3.d6d60bee.chunk.js",
+    "static/js/3.d6d60bee.chunk.js.map": "/esours/static/js/3.d6d60bee.chunk.js.map",
+    "index.html": "/esours/index.html",
+    "static/css/2.f24ee6b7.chunk.css.map": "/esours/static/css/2.f24ee6b7.chunk.css.map",
+    "static/js/2.3384f18b.chunk.js.LICENSE.txt": "/esours/static/js/2.3384f18b.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/esours/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f44ab1fe.js",
+    "static/css/2.f24ee6b7.chunk.css",
+    "static/js/2.3384f18b.chunk.js",
+    "static/js/main.fbb2c9ae.chunk.js"
+  ]
+}
