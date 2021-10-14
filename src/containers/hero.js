@@ -32,6 +32,7 @@ export function HeroContainer({ category }) {
   return (
     <>
       <Hero>
+        <ClientModal.LockBody show={show} />
         <Hero.CardsHolder>
           {dataToShow.map((card) => (
             <Hero.Card
@@ -72,7 +73,7 @@ export function HeroContainer({ category }) {
         show={show}
       >
         <SliderHolder>
-          {filteredData.all.map((product) => (
+          {filteredData[category].map((product) => (
             <ClientModal.Inner show={show}>
               <ClientModal.Info>
                 <Hero.CleintId>#{product.id || ""}</Hero.CleintId>

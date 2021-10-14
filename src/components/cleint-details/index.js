@@ -8,6 +8,7 @@ import {
   Description,
   Image,
   ImagesHolder,
+  LockBody,
 } from "./styles/cleint";
 
 export default function ClientModal({ children, ...restProps }) {
@@ -53,4 +54,8 @@ ClientModal.ImagesHolder = function ClientImagesHolder({
   ...restProps
 }) {
   return <ImagesHolder {...restProps}>{children}</ImagesHolder>;
+};
+
+ClientModal.LockBody = function ClientTitleLockBody({ ...restProps }) {
+  return <LockBody {...restProps} />;
 };

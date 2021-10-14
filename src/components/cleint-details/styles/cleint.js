@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled, { createGlobalStyle } from "styled-components/macro";
 
 export const Container = styled.div`
   display: flex;
@@ -31,7 +31,6 @@ export const Info = styled.div`
   max-height: 95vh;
   overflow-y: scroll;
   display: flex;
-  align-self: center;
   flex-direction: column;
   gap: 1vw;
   width: 32%;
@@ -86,4 +85,10 @@ export const ImagesHolder = styled.div`
   max-height: 95vh;
   overflow-y: scroll;
   border-radius: 16px;
+`;
+
+export const LockBody = createGlobalStyle`
+        body{
+          overflow:  ${({ show }) => (show ? "hidden" : "auto")};
+        }
 `;
