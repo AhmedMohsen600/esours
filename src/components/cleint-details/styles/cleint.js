@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled, { createGlobalStyle } from "styled-components/macro";
 
 export const Container = styled.div`
   display: flex;
@@ -6,7 +6,6 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  
   transition: opacity 0.5s ease 0.1s;
   pointer-events: ${({ show }) => (show ? "all" : "none")};
   opacity: ${({ show }) => (show ? "1" : "0")};
@@ -15,12 +14,12 @@ export const Container = styled.div`
 `;
 
 export const Inner = styled.div`
-  width: 90%;
+  width: 95%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 1.5vw;
   transition: all 0.5s ease 0.2s;
   transform: ${({ show }) => (show ? "translateX(0%)" : "translateX(80%)")};
   background-color: transparent;
@@ -33,37 +32,41 @@ export const Info = styled.div`
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 1vw;
   flex: 1;
-  padding: 40px;
+  padding: 2vw;
   background-color: white;
   border-radius: 16px;
-
-  }
 `;
 
 export const SliderContainer = styled.div`
   flex: 2;
   height: 90vh;
-
 `;
 
 export const Title = styled.h6`
-  font-size: 22px;
+  font-size: 1.5vw;
   line-height: 1.2;
   font-weight: 600;
   color: black;
 `;
 
 export const Description = styled.p`
-  font-size: 24px;
+  font-size: 1.05vw;
   width: 100%;
   line-height: 140%;
   color: #6b6b6b;
+  margin-bottom: 1.5vw;
 `;
 
 export const Group = styled.div`
   display: flex;
   flex-direction: column;
   gap: ${({ gap }) => gap};
+`;
+
+export const LockBody = createGlobalStyle`
+        body{
+          overflow:  ${({ show }) => (show ? "hidden" : "auto")};
+        }
 `;

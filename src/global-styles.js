@@ -25,4 +25,11 @@ export const GlobalStyle = createGlobalStyle`
    max-height: 90vh;  /* change this to whatever you want */
    width: 100%;
 }
+
+.slider-wrapper{
+   border-radius: 16px;
+}
+.thumb {
+   cursor: pointer;
+}
 `;

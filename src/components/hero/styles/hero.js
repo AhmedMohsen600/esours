@@ -2,6 +2,7 @@ import styled from "styled-components/macro";
 
 export const Container = styled.section`
   display: flex;
+  padding: 2vw 0;
 `;
 
 export const CardsHolder = styled.div`
@@ -9,27 +10,27 @@ export const CardsHolder = styled.div`
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding-top: 24px;
+  gap: 1.3vw;
 `;
 
 export const Card = styled.div`
   display: flex;
-  height: 240px;
+  height: 13vw;
   width: 100%;
   border-radius: 16px;
-  border: 2px solid #d9d9d9;
+  border: 0.1vw solid #d9d9d9;
+  cursor: pointer;
 `;
 
 export const ProductName = styled.h4`
-  font-size: 36px;
+  font-size: ${({ onlyHero }) => (onlyHero ? "1.6vw" : "2vw")};
   color: #000000;
   font-weight: 600;
   line-height: 1.2;
 `;
 
 export const CleintId = styled.h5`
-  font-size: 24px;
+  font-size: 1.2vw;
   font-weight: 500;
   color: #6b6b6b;
   line-height: 1.2;
@@ -37,20 +38,21 @@ export const CleintId = styled.h5`
 
 export const Position = styled.div`
   border-radius: 100px;
-  padding: 16px;
+  padding: 0.7vw 0.9vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eaeaea;
   border: 1px solid #b1b1b1;
+  font-size: 1.05vw;
 `;
 
 export const Picture = styled.div`
-  width: 14%;
+  width: 14vw;
   height: 100%;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
   background-color: grey;
+  overflow: hidden;
 `;
 
 export const Info = styled.div`
@@ -63,11 +65,12 @@ export const Info = styled.div`
   padding: 48px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
-  gap: 24px;
+  gap: 1.2vw;
   background-color: white;
 `;
 
 export const Group = styled.div`
   display: flex;
   gap: 16px;
+  padding: ${({ padding }) => padding};
 `;

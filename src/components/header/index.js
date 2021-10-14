@@ -7,7 +7,6 @@ import {
   Link,
   FilterButton,
   PageTitle,
-  Logo,
   Group,
   Inner,
 } from "./styles/header";
@@ -34,10 +33,6 @@ Header.FilterButton = function HeaderFilterButton({ children, ...restProps }) {
 
 Header.PageTitle = function HeaderPageTitle({ children }) {
   return <PageTitle>{children}</PageTitle>;
-};
-
-Header.Logo = function HeaderLogo({ children }) {
-  return <Logo>{children}</Logo>;
 };
 
 Header.Group = function HeaderGroup({ children }) {

@@ -6,6 +6,7 @@ import {
   SliderContainer,
   Title,
   Description,
+  LockBody,
 } from "./styles/cleint";
 
 export default function ClientModal({ children, ...restProps }) {
@@ -36,4 +37,7 @@ ClientModal.Description = function ClientDescription({
   ...restProps
 }) {
   return <Description {...restProps}>{children}</Description>;
+};
+ClientModal.LockBody = function ClientTitleLockBody({ ...restProps }) {
+  return <LockBody {...restProps} />;
 };

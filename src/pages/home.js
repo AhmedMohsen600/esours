@@ -1,14 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { HeaderContainer } from "../containers/header";
 import { HeroContainer } from "../containers/hero";
-import { getItem, setItem } from "../lib/helper";
-export default function Home() {
-  const [category, setCategory] = useState("all");
+import data from "../data/data.json";
 
+export default function Home() {
+  const [cardData, setCardData] = useState(data.all);
+  const [category, setCategory] = useState("all");
   return (
     <>
-      <HeaderContainer setCategory={setCategory} category={category} />
-      <HeroContainer category={category} setCategory={setCategory} />
+      <HeaderContainer
+        setCardData={setCardData}
+        category={category}
+        setCategory={setCategory}
+        section="all"
+      />
+      <HeroContainer cardData={cardData} />
     </>
   );
 }

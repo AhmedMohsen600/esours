@@ -7,17 +7,14 @@ export default function ImageGallaryComponent({ imgData }) {
     <Carousel dynamicHeight={true} showArrows={false} transitionTime="500">
       {imgData &&
         imgData.map((img) => (
-          <div key={img} >
+          <div key={img}>
             <img
-              style={{ objectFit: 'cover', aspectRatio: '1.5' }}
+              style={{ objectFit: "cover", aspectRatio: "1.5" }}
               alt=""
               src={img}
-
             />
           </div>
         ))}
     </Carousel>
-
-
   );
 }
