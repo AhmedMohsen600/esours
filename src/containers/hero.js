@@ -8,7 +8,7 @@ export function HeroContainer({ category }) {
   const [cardObj, setCardOjb] = useState(
     JSON.parse(localStorage.getItem("card")) || {}
   );
-  const data = [1, 2, 3, 4, 5, 6];
+
   const { pathname } = useLocation();
 
   let dataToShow = filteredData[category];
@@ -68,7 +68,7 @@ export function HeroContainer({ category }) {
       <ClientModal show={show}>
         <SliderHolder>
           {filteredData[category].map((product) => (
-            <ClientModal.Inner show={show}>
+            <ClientModal.Inner key={product.id} show={show}>
               <ClientModal.Info>
                 <Hero.CleintId>#{product.id || ""}</Hero.CleintId>
                 <Hero.ProductName>{product.productName || ""}</Hero.ProductName>
@@ -119,8 +119,8 @@ export function HeroContainer({ category }) {
                 <ClientModal.Description>{product.q8}</ClientModal.Description>
               </ClientModal.Info>
               <ClientModal.ImagesHolder>
-                {filteredData.all.map((img) => (
-                  <ClientModal.Image src={img.img} />
+                {filteredData.all.map((img, index) => (
+                  <ClientModal.Image key={index} src={img.img} />
                 ))}
               </ClientModal.ImagesHolder>
             </ClientModal.Inner>

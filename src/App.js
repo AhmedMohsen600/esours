@@ -8,8 +8,6 @@ import {
 import { Home, Shortlisted, Rejected } from "./pages";
 import koko from "./data/csvjson.json";
 function App() {
-  console.log({ koko });
-
   const data = {
     all: [],
     furniture: [],

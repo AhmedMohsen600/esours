@@ -6,7 +6,7 @@ import { SmallImage } from "../index";
 export default function Slider({ children }) {
   const responsive = {
     desktop: {
-      breakpoint: { max: 4000, min: 1024 },
+      breakpoint: { max: 5000, min: 1024 },
       items: 1,
       slidesToSlide: 1,
     },

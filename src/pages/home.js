@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { HeaderContainer } from "../containers/header";
 import { HeroContainer } from "../containers/hero";
 import { getItem, setItem } from "../lib/helper";
