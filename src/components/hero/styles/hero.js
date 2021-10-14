@@ -2,6 +2,7 @@ import styled from "styled-components/macro";
 
 export const Container = styled.section`
   display: flex;
+  padding: 2vw 0;
 `;
 
 export const CardsHolder = styled.div`
@@ -10,7 +11,6 @@ export const CardsHolder = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.3vw;
-  padding-top: 2vw;
 `;
 
 export const Card = styled.div`
