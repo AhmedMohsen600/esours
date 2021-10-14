@@ -37,15 +37,6 @@ export const Info = styled.div`
   padding: 2vw;
   background-color: white;
   border-radius: 16px;
-  /* @media (max-width: 1070px) {
-    max-height: 100vh;
-  }
-  @media (min-width: 1300px) {
-    max-height: 60%;
-  }
-  @media (min-width: 2000px) {
-    max-height: 100vh;
-  } */
 `;
 
 export const SliderContainer = styled.div`

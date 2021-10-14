@@ -65,13 +65,7 @@ export function HeroContainer({ category }) {
           ))}
         </Hero.CardsHolder>
       </Hero>
-      <ClientModal
-        onClick={(e) => {
-          if (e.target.classList.contains("dark")) setShow(false);
-          console.log(e.target.classList);
-        }}
-        show={show}
-      >
+      <ClientModal show={show}>
         <SliderHolder>
           {filteredData[category].map((product) => (
             <ClientModal.Inner show={show}>
