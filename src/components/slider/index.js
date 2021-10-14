@@ -24,6 +24,7 @@ export default function Slider({ children }) {
         draggable={false}
         arrows={true}
         responsive={responsive}
+        keyBoardControl={true}
       >
         {children}
       </Carousel>
@@ -33,7 +34,7 @@ export default function Slider({ children }) {
 
 const SliderHolder = styled.div`
   width: 100%;
-  height: 100%;
+  max-height: 100%;
 
   /* position: absolute;
   top: 50%;

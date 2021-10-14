@@ -13,7 +13,13 @@
             "q6": "if it's not seen before and new to the eye, then yes it's innovative.",
             "q7": "Yes",
             "q8": "The fact that I did, anyone can do it. so yes, it's feasible.",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25883.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25884.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25885.png\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25886.png",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25883.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25883.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25884.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25885.png",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25886.png"
+            ],
             "categories": [
                 "Accessories"
             ]
@@ -21,7 +27,6 @@
         {
             "id": 31184,
             "productName": "S A D A F A   sofa",
-            "img": "N/A",
             "a1": "The main idea behind 'Sadafa' was to create a timeless fusion between a modern-chic design and the authenticity and artistry in the work and finishing of the mother of pearl and bone inlay giving a fresh and contemporary twist to the piece.",
             "a2": "The research was focused that the mother of pearl and bone inlay as an industry has started to lose momentum in todays market and consumer needs started inclining to more 'minimalistic' design ideas which is clearly visible in the straight lines across the sofa and merging that with the curve and patterns achieving a sort of new 'Hybrid",
             "q1": "No",
@@ -32,6 +37,7 @@
             "q6": "The main idea behind 'Sadafa' was to create a timeless fusion between a modern-chic design and the authenticity and artistry in the work and finishing of the mother of pearl inlay giving a fresh and contemporary twist to the piece.",
             "q7": "Yes",
             "q8": "All Materials and labor used in this product are locally available.",
+            "img": "N/A",
             "categories": [
                 "Furniture"
             ]
@@ -49,7 +55,15 @@
             "q6": "The material itself is innovation.\nDesigners can shape and cut the material as creatively as they can.",
             "q7": "Yes",
             "q8": "The product is feasible.\n\nMarket demanded Product\nLocal market price.\nCustomize material.",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/26053.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26054.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26055.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26056.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26057.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26058.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/26053.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/26053.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/26054.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/26055.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/26056.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/26057.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/26058.jpeg"
+            ],
             "categories": [
                 "Materials"
             ]
@@ -67,7 +81,19 @@
             "q6": "The innovation criteria is achieved through the introduction of a new form of mixed media art combining between hand-painted photographs, painting and use of translucent media as a base for the paintings. The tangible and intangible layering elements are achieved creatively giving the artwork an edge of uniqueness. Through constant experimentation, NL Artworks creates a full spatial experience through the play of shadows and light, reacting with the translucent media.",
             "q7": "No",
             "q8": "N/A",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25872.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25873.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25874.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25875.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25876.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25877.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25878.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25879.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25880.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25881.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25872.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25872.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25873.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25874.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25875.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25876.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25877.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25878.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25879.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25880.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25881.jpeg"
+            ],
             "categories": [
                 "Accessories"
             ]
@@ -85,7 +111,19 @@
             "q6": "Indeed, a growing effort has arisen to use bio-fillers as a replacement for synthetic ones in an attempt to reduce the cost. Eggshell is a strong bio-filler candidate since it contains high percentages of CaCO3, which exists in bulk quantity and is inexpensive. \n\nMoreover, the integral components of eggshell enables the reduction of shrinkage during molding, enhances stiffness and flammability resistance of the biopolymers used.\nThe idea behind Shell Homage is to work with biopolymers and natural fillers, experiment with the unexpected influences of these materials, and explore different ways of producing materials, from high-tech processing techniques to the handmade.",
             "q7": "Yes",
             "q8": "We need to work with nature rather than against it, learning from nature’s best methods for furthering production not just of materials but of end products. To reach this point, we need to overcome certain presumptions about what our products should look like. We need to pull together some newer production methods, and materials that show promising substitutions. Materials that make us rethink how we make things and what those things could be made of.\n\nIn our profession, it’s very important to work on material research projects. While material science demonstrates the importance of understanding material from all perspectives, it only provides us with only a part of the puzzle. In the end, I think designers should initiate more collaboration. It is their responsibility to speak both languages. Creativity comes from trials and explorations drawn from other fields.  It’s all about having a curiosity to experiment with new things and not to limit yourself to the knowledge you have gained from your field. It is not an easy task to bridge the gap in information and technique. What matters is the process of finding solutions that are meaningful to people, and that enable new ways of understanding, inspiring, and creating a positive impact in society and in our own daily lives. I also think that we shouldn’t focus only on objects and installations but also on the creative process of how something is made.\n\nShell Homage was initiated during my master’s research project, where I was inspired by the aim to reinterpret each material group and communicate their qualities as well as the environmental problems they speak to. I wanted to then, and still do now: create products that have a life span and are able to be returned back to nature when that life span is up. \n\nShell Homage studio offers designed products that are not only intended to provide a basic function, but also an experience that is meaningful and delightful to the user. I want to stir emotional and intellectual curiosities within consumers. I propose a new way to look at “shells”, and in doing so I hope to reveal this material’s personal homage. \nI hope my work will inspire others to do something out of food waste as well. There is so much to do in the world of food, since it’s one of the biggest industries on earth! I think a lot of creativity is needed to address those things. A designer can be the activist and the cause for change. He or she must be innovative in spirit, seeking out collaborators to reach amazing solutions which outperform and offer truly viable alternatives to current approaches. The pursuit is to be in full control of the lifespan of the product, from its origin – in the form of natural material – through to the final product until its inescapable decay.",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25683.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25684.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25686.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25687.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25688.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25689.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25690.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25691.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25692.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25693.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25683.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25683.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25684.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25686.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25687.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25688.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25689.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25690.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25691.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25692.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25693.jpeg"
+            ],
             "categories": [
                 "Materials"
             ]
@@ -103,7 +141,17 @@
             "q6": "The product is designed to turn the standard beanbag into a rocking chair.\nIt might trigger the user to rethink your surroundings.",
             "q7": "Yes",
             "q8": "I spent some time calculating the capacity of plywood sheet, trying different layouts and solutions, \nto help reduce material waste, and maximize the number of products per plywood sheet.\n\n- Lightweight\n- Easy to mass produce\n- Relatively low price\n- Easy to store\n- Easy to assemble\n- Customizable (Business to Business service). \n- BBR is designed to sell over shopping websites and mobile phone apps.\n\nSince Beanbags are broadly used, the product makes some room for new market opportunities and partnerships\nbetween beanbag producers, marketing agencies, and more.\nThe product can serve both, Business to Business, as well as Business to Customer.",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25614.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25615.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25616.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25617.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25618.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25619.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25620.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25621.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25614.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25614.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25615.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25616.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25617.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25618.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25619.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25620.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25621.jpeg"
+            ],
             "categories": [
                 "Furniture"
             ]
@@ -121,7 +169,19 @@
             "q6": "Creating a new design line that blends the elements of the Pharaonic civilization, cares about traditional values, and emphasizes the Egyptian identity through simple contemporary products.",
             "q7": "Yes",
             "q8": "Simple, aesthetically expressive design lines enable us to save materials and we can produce them in a quantitative manner.",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25406.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25407.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25408.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25409.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25410.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25411.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25412.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25413.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25414.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25406.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25407.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25408.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25409.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25410.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25411.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25412.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25413.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25414.jpeg"
+            ],
             "categories": [
                 "Furniture",
                 "Accessories"
@@ -140,7 +200,16 @@
             "q6": "The design follows the concept of maximising the minimal where the parrot is looked at from a different angle where the traditional use of animals is tweaked and the low poly is introduced. Also, the low poly language is challenged by focusing at the voids to create interesting negative spaces and emphasize more on the skeleton/wireframe of the parrot.",
             "q7": "No",
             "q8": "N/A",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25063.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25064.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25065.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25066.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25067.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25068.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25069.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25063.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25063.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25064.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25065.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25066.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25067.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25068.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25069.jpeg"
+            ],
             "categories": [
                 "Lighting"
             ]
@@ -158,7 +227,21 @@
             "q6": "The innovation here is to work on the Islamic pattern and study it so that we can invent a new form of the pattern found in the monument without ruining the original proportions and preserving them, so we get a new and innovative masterpiece and at the same time preserve the beauty of the original Islamic pattern. Also using modern colors.",
             "q7": "Yes",
             "q8": "The craft of wood inlaying is a craft that was distinguished in Egypt until recently, and the craft is now in danger of extinction, so I try in my design to use this craft in a more stylish way than before in order to try even a simple attempt to preserve this craft,",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25550.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25551.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25552.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25553.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25554.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25555.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25556.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25557.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25558.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25559.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25560.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25561.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25550.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25550.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25551.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25552.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25553.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25554.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25555.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25556.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25557.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25558.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25559.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25560.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25561.jpeg"
+            ],
             "categories": [
                 "Furniture"
             ]
@@ -176,7 +259,19 @@
             "q6": "The innovation here is to work on the Islamic pattern and study it so that we can invent a new form of the pattern found in the monument without ruining the original proportions and preserving them, so we get a new and innovative masterpiece and at the same time preserve the beauty of the original Islamic pattern. Also making the dome on your table is a wonderful thing.",
             "q7": "Yes",
             "q8": "The craft of wood inlaying is a craft that was distinguished in Egypt until recently, and the craft is now in danger of extinction, so I try in my design to use this craft in a more stylish way than before in order to try even a simple attempt to preserve this craft ,",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25540.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25541.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25542.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25543.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25544.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25545.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25546.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25547.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25548.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25549.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25540.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25540.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25541.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25542.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25543.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25544.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25545.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25546.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25547.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25548.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25549.jpeg"
+            ],
             "categories": [
                 "Furniture"
             ]
@@ -194,7 +289,19 @@
             "q6": "I believe that this furniture piece can be a part of Egypt’s economic innovation. My hope is for this contemporary furniture piece to attract people and collectors from around the world, introducing them further to the Egyptian heritage in a modern and elegant approach, creating more interest & merit for us, Egyptians.",
             "q7": "Yes",
             "q8": "There are some methods of the assembly process that were used by ancient Egyptians. (Backrest to Seat assembly) & (wood jointing)\nMaterials are chosen not only based on their natural content & aesthetic, but in the way that it tells a story. Ebony wood’s heritage and strong relation to ancient Egypt gave me a chance to strengthen my design authenticity and value. Brass was also the most common metal for everyday use in ancient Egypt, which gives brass another reason to be chosen. \nThe manufacture & assembly process is explained in the Images attached.",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25273.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25274.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25275.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25276.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25277.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25278.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25279.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25280.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25282.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25588.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25273.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25273.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25274.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25275.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25276.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25277.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25278.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25279.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25280.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25282.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/25588.jpeg"
+            ],
             "categories": [
                 "Furniture"
             ]
@@ -212,7 +319,12 @@
             "q6": "An innovative product that synchronizes with the modern trends of green product design and is inspired by the King Djed Sets , the first king to appear in a royal symbol of the 1st Dynasty of ancient Egypt , that is inspired by the construction method at the time, as in the Saqqara sets,  to innovative a structural method for create multi-purpose furniture",
             "q7": "Yes",
             "q8": "Djed project is more suitable for the customer’s using in the home or office, as well as companies and shops, and it is makes the customer a partner through his experience in creating his own product with the functions he wants . the product is  using from  palm fronds which is palm waste  . it's an egyptian material that is cheap to make the product competitive",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/24821.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24822.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24823.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/24821.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24821.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24822.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24823.jpeg"
+            ],
             "categories": [
                 "N/A"
             ]
@@ -250,7 +362,18 @@
             "q6": "Innovative & feasibility \nPottery re-innovation to adapt with our minimalistic era of life.  A method called the glassblowing was used specifically during the islamic era integrated with paint. Glassblowing is a glassforming technique that involves inflating molten glass into a bubble with the aid of a blowpipe.\n\nI searched for a place where glassblowers work in and I was amazed that gamaleya street have a lot of workshops and that glassblowing is actually an Egyptian famous craft that was about to vanish. Knowing that made me insist more to make my design a handcrafted one. I went to gamaleya street and I met with one of the glassblowers, I showed him the design I have created and surprisingly he implemented it without any flaws. It was a piece of art. I was astonished. The way he takes control of the glass and shapes it before the glass cools under a curtain temperature is an innovation that I would like it to keep living on. I beileve that it’s time to bring the handcrafts and methods that come from the past and blend them with our present to create the wonders of an era of an ongoing life.",
             "q7": "Yes",
             "q8": "N/A",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/24969.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24970.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24971.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24972.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24973.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24974.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24975.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24976.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24977.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/24969.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24969.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24970.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24971.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24972.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24973.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24974.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24975.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24976.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/09/24977.jpeg"
+            ],
             "categories": [
                 "Accessories"
             ]
@@ -266,9 +389,19 @@
             "q4": "These are multifunctional functions in daily life\nIt makes it easier for us to look great and also makes it easier to wear shoes  and store it \nWith the integration of a shoe cabinet to store shoes and a chair to sit on to wear shoes with ease way , and a mirror is added to it in order to make sure of the external appearance before leaving the house or the place where that piece is placed, and it is one piece of multiple benefits, so this piece of furniture is considered a great benefit in our daily life.",
             "q5": "Yes",
             "q6": "This piece is unique and innovative because of its multiple functions and materials used\nFirst we talk about the functions, that one piece has a mirror, a shoe cabinet and a chair to make it easier to put on shoes. As for the material, it has an innovative idea. We used tents and revived this traditional craft and combined it into the furniture industry with a unique idea and mixed it with natural oak wood",
-            "q7": "Yes",
-            "q8": "Easy to implement because you only need a carpenter, a Khayamiya craftsman and an upholsterer\n  Carpentry for the manufacture of parts made of natural oak wood. a Khayamiya craftsman is Khayamiya work and the upholstery of the Khayamiya piece is on the part of the wood",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25655.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25656.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25657.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25658.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25659.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25660.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25661.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25662.png\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25663.png",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg",
+            "images": [
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25655.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25656.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25657.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25658.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25659.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25660.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25661.jpeg",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25662.png",
+                "https://esorus.com/uploads/dynamic-form/image/2021/10/25663.png"
+            ],
             "categories": [
                 "Furniture",
                 "Textile",
@@ -288,7 +421,7 @@
         {
             "id": 29869,
             "productName": "Beanbag Rocker BBR",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25614.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25615.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25616.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25617.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25618.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25619.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25620.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25621.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25614.jpeg",
             "categories": [
                 "Furniture"
             ]
@@ -296,7 +429,7 @@
         {
             "id": 29721,
             "productName": "Life Console",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25406.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25407.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25408.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25409.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25410.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25411.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25412.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25413.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25414.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg",
             "categories": [
                 "Furniture",
                 "Accessories"
@@ -305,7 +438,7 @@
         {
             "id": 28965,
             "productName": "SUSUZ SIDE TABLE",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25550.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25551.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25552.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25553.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25554.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25555.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25556.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25557.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25558.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25559.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25560.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25561.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25550.jpeg",
             "categories": [
                 "Furniture"
             ]
@@ -313,7 +446,7 @@
         {
             "id": 28958,
             "productName": "Arabesque Coffee Table",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25540.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25541.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25542.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25543.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25544.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25545.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25546.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25547.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25548.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25549.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25540.jpeg",
             "categories": [
                 "Furniture"
             ]
@@ -321,7 +454,7 @@
         {
             "id": 28743,
             "productName": "Isthron - Contemporary Furniture",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25273.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25274.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25275.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25276.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25277.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25278.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25279.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25280.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25282.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25588.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25273.jpeg",
             "categories": [
                 "Furniture"
             ]
@@ -339,7 +472,7 @@
         {
             "id": 27687,
             "productName": "Unique saw and needle",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25655.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25656.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25657.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25658.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25659.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25660.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25661.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25662.png\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25663.png",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg",
             "categories": [
                 "Furniture",
                 "Textile",
@@ -351,7 +484,7 @@
         {
             "id": 29092,
             "productName": "The Iago Parrot",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25063.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25064.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25065.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25066.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25067.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25068.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25069.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25063.jpeg",
             "categories": [
                 "Lighting"
             ]
@@ -361,7 +494,7 @@
         {
             "id": 31614,
             "productName": "E-motion, Energy in motion",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25883.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25884.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25885.png\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25886.png",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25883.jpeg",
             "categories": [
                 "Accessories"
             ]
@@ -369,7 +502,7 @@
         {
             "id": 31109,
             "productName": "NL Artworks",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25872.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25873.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25874.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25875.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25876.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25877.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25878.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25879.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25880.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25881.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25872.jpeg",
             "categories": [
                 "Accessories"
             ]
@@ -377,7 +510,7 @@
         {
             "id": 29721,
             "productName": "Life Console",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25406.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25407.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25408.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25409.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25410.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25411.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25412.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25413.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/25414.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/25405.jpeg",
             "categories": [
                 "Furniture",
                 "Accessories"
@@ -396,7 +529,7 @@
         {
             "id": 28109,
             "productName": "era of life water bottle (home decor)",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/24969.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24970.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24971.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24972.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24973.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24974.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24975.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24976.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/09/24977.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/09/24969.jpeg",
             "categories": [
                 "Accessories"
             ]
@@ -406,7 +539,7 @@
         {
             "id": 27687,
             "productName": "Unique saw and needle",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25655.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25656.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25657.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25658.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25659.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25660.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25661.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25662.png\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25663.png",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg",
             "categories": [
                 "Furniture",
                 "Textile",
@@ -418,7 +551,7 @@
         {
             "id": 31132,
             "productName": "Grigio",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/26053.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26054.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26055.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26056.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26057.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/26058.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/26053.jpeg",
             "categories": [
                 "Materials"
             ]
@@ -426,7 +559,7 @@
         {
             "id": 30889,
             "productName": "Shell Homage",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25683.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25684.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25686.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25687.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25688.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25689.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25690.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25691.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25692.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25693.jpeg",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25683.jpeg",
             "categories": [
                 "Materials"
             ]
@@ -444,12 +577,14 @@
         {
             "id": 27687,
             "productName": "Unique saw and needle",
-            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25655.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25656.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25657.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25658.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25659.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25660.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25661.jpeg\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25662.png\nhttps://esorus.com/uploads/dynamic-form/image/2021/10/25663.png",
+            "img": "https://esorus.com/uploads/dynamic-form/image/2021/10/25654.jpeg",
             "categories": [
                 "Furniture",
                 "Textile",
                 "Materials"
             ]
         }
-    ]
+    ],
+    "short": [],
+    "reject": []
 }

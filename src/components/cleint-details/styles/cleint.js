@@ -6,7 +6,7 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   transition: opacity 0.5s ease 0.1s;
   pointer-events: ${({ show }) => (show ? "all" : "none")};
   opacity: ${({ show }) => (show ? "1" : "0")};
@@ -15,39 +15,38 @@ export const Container = styled.div`
 `;
 
 export const Inner = styled.div`
-  width: 90%;
+  width: 95%;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 24px;
+  gap: 1.5vw;
   transition: all 0.5s ease 0.2s;
   transform: ${({ show }) => (show ? "translateX(0%)" : "translateX(80%)")};
   background-color: transparent;
   opacity: ${({ show }) => (show ? "1" : "0")};
-  height: 100%;
 `;
 
 export const Info = styled.div`
-  height: 63.3%;
+  max-height: 95vh;
   overflow-y: scroll;
   display: flex;
   align-self: center;
   flex-direction: column;
-  gap: 48px;
-  flex: 1;
-  padding: 40px;
+  gap: 1vw;
+  width: 32%;
+  padding: 2vw;
   background-color: white;
   border-radius: 16px;
-  @media (max-width: 1070px) {
-    height: 50%;
+  /* @media (max-width: 1070px) {
+    max-height: 100vh;
   }
   @media (min-width: 1300px) {
-    height: 60%;
+    max-height: 60%;
   }
   @media (min-width: 2000px) {
-    height: 80%;
-  }
+    max-height: 100vh;
+  } */
 `;
 
 export const SliderContainer = styled.div`
@@ -55,21 +54,36 @@ export const SliderContainer = styled.div`
 `;
 
 export const Title = styled.h6`
-  font-size: 22px;
+  font-size: 1.5vw;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 500;
   color: black;
 `;
 
 export const Description = styled.p`
-  font-size: 24px;
+  font-size: 1.05vw;
   width: 100%;
   line-height: 140%;
   color: #6b6b6b;
+  margin-bottom: 1.5vw;
 `;
 
 export const Group = styled.div`
   display: flex;
   flex-direction: column;
   gap: ${({ gap }) => gap};
+`;
+
+export const Image = styled.img`
+  width: 100%;
+`;
+
+export const ImagesHolder = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+  flex: 1;
+  max-height: 95vh;
+  overflow-y: scroll;
+  border-radius: 16px;
 `;

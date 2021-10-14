@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
  .react-multi-carousel-list{
     width: 100% ;
     height: 100%;
+    /* overflow-y: scroll; */
     /* display: flex ;
     justify-content: flex-start ;
     align-items: center; */

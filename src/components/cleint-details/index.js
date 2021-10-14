@@ -6,10 +6,16 @@ import {
   SliderContainer,
   Title,
   Description,
+  Image,
+  ImagesHolder,
 } from "./styles/cleint";
 
 export default function ClientModal({ children, ...restProps }) {
-  return <Container {...restProps}>{children}</Container>;
+  return (
+    <Container className="dark" {...restProps}>
+      {children}
+    </Container>
+  );
 }
 
 ClientModal.Inner = function ClientInner({ children, ...restProps }) {
@@ -36,4 +42,15 @@ ClientModal.Description = function ClientDescription({
   ...restProps
 }) {
   return <Description {...restProps}>{children}</Description>;
+};
+
+ClientModal.Image = function ClientTitleImage({ ...restProps }) {
+  return <Image {...restProps} />;
+};
+
+ClientModal.ImagesHolder = function ClientImagesHolder({
+  children,
+  ...restProps
+}) {
+  return <ImagesHolder {...restProps}>{children}</ImagesHolder>;
 };

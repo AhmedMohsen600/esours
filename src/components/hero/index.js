@@ -26,12 +26,12 @@ Hero.CleintId = function HeroCleintId({ children }) {
   return <CleintId>{children}</CleintId>;
 };
 
-Hero.Group = function HeroCardsHolder({ children }) {
-  return <Group>{children}</Group>;
+Hero.Group = function HeroCardsHolder({ children, ...restProps }) {
+  return <Group {...restProps}>{children}</Group>;
 };
 
-Hero.ProductName = function HeroProductName({ children }) {
-  return <ProductName>{children}</ProductName>;
+Hero.ProductName = function HeroProductName({ children, ...restProps }) {
+  return <ProductName {...restProps}>{children}</ProductName>;
 };
 
 Hero.Info = function HeroInfo({ children }) {
