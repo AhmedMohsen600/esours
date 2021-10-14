@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styled from "styled-components/macro";
 import { SmallImage } from "../index";
+import { CustomRightArrow, CustomLeftArrow } from "../index";
 export default function Slider({ children }) {
   const responsive = {
     desktop: {
@@ -25,6 +26,8 @@ export default function Slider({ children }) {
         arrows={true}
         responsive={responsive}
         keyBoardControl={true}
+        customRightArrow={<CustomRightArrow />}
+        customLeftArrow={<CustomLeftArrow />}
       >
         {children}
       </Carousel>

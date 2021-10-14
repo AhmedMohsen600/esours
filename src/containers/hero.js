@@ -3,6 +3,7 @@ import { useLocation } from "react-router";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
 import filteredData from "../data/data.json";
 import { getItem } from "../lib/helper";
+import { CustomRightArrow } from "../components";
 export function HeroContainer({ category }) {
   const [show, setShow] = useState(false);
   // const [cardObj, setCardOjb] = useState(
@@ -69,6 +70,16 @@ export function HeroContainer({ category }) {
         <SliderHolder>
           {filteredData[category].map((product) => (
             <ClientModal.Inner key={product.id} show={show}>
+              <div
+                style={{
+                  display: "flex",
+                  height: "94.5vh",
+                  flexDirection: "column",
+                  justifyContent: "flex-end",
+                }}
+              >
+                <ClientModal.Close onClick={() => setShow(false)} />
+              </div>
               <ClientModal.Info>
                 <Hero.CleintId>#{product.id || ""}</Hero.CleintId>
                 <Hero.ProductName>{product.productName || ""}</Hero.ProductName>
@@ -124,6 +135,16 @@ export function HeroContainer({ category }) {
                     <MyImage key={index} src={img} />
                   ))}
               </ClientModal.ImagesHolder>
+              <div
+                style={{
+                  height: "94.5vh",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                }}
+              >
+                <ClientModal.Close onClick={() => setShow(false)} />
+              </div>
             </ClientModal.Inner>
           ))}
         </SliderHolder>

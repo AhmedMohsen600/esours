@@ -9,6 +9,7 @@ import {
   Image,
   ImagesHolder,
   LockBody,
+  Close,
 } from "./styles/cleint";
 
 export default function ClientModal({ children, ...restProps }) {
@@ -58,4 +59,40 @@ ClientModal.ImagesHolder = function ClientImagesHolder({
 
 ClientModal.LockBody = function ClientTitleLockBody({ ...restProps }) {
   return <LockBody {...restProps} />;
+};
+
+ClientModal.Close = function ClientClose({ ...restProps }) {
+  return (
+    <Close {...restProps}>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="2vw"
+        height="2vw"
+        fill="white"
+        viewBox="0 0 256 256"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <line
+          x1="200"
+          y1="56"
+          x2="56"
+          y2="200"
+          stroke="white"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="16"
+        ></line>
+        <line
+          x1="200"
+          y1="200"
+          x2="56"
+          y2="56"
+          stroke="white"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="16"
+        ></line>
+      </svg>
+    </Close>
+  );
 };

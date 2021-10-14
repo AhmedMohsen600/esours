@@ -24,8 +24,24 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: flex-start ;
     align-items: center; */
  }  
- .react-multi-carousel-item{
-     /* height: 100% !important;  */
-      /* overflow-y: scroll !important;  */
+
+ .react-multiple-carousel__arrow{
+    bottom: 0;
+    padding: 0.5vw;
+    width: 2vw ;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.react-multiple-carousel__arrow--right{
+    right: 17px;
+ }
+ .react-multiple-carousel__arrow--left{
+    left: 17px;
+ }
+ .react-multiple-carousel__arrow::before{
+  
+   
  }
 `;

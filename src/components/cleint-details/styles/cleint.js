@@ -3,6 +3,8 @@ import styled, { createGlobalStyle } from "styled-components/macro";
 export const Container = styled.div`
   display: flex;
   position: fixed;
+  justify-content: center;
+  align-items: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -15,7 +17,7 @@ export const Container = styled.div`
 `;
 
 export const Inner = styled.div`
-  width: 95%;
+  width: 91%;
   margin: auto;
   display: flex;
   justify-content: flex-start;
@@ -25,6 +27,7 @@ export const Inner = styled.div`
   transform: ${({ show }) => (show ? "translateX(0%)" : "translateX(80%)")};
   background-color: transparent;
   opacity: ${({ show }) => (show ? "1" : "0")};
+  position: relative;
 `;
 
 export const Info = styled.div`
@@ -82,4 +85,18 @@ export const LockBody = createGlobalStyle`
         body{
           overflow:  ${({ show }) => (show ? "hidden" : "auto")};
         }
+`;
+
+export const Close = styled.button`
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  border-radius: 50%;
+  border: 0.2vw solid white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5vw;
+  cursor: pointer;
+  align-items: center;
 `;
