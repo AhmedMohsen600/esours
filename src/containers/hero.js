@@ -1,19 +1,16 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
 import filteredData from "../data/newData.json";
 import { getItem } from "../lib/helper";
 export function HeroContainer({ category }) {
-  const [show, setShow] = useState(false);
-  // const [cardObj, setCardOjb] = useState(
-  //   JSON.parse(localStorage.getItem("card")) || {}
-  // );
-
   const { pathname } = useLocation();
   const sliderRef = useRef(null);
-
+  const [show, setShow] = useState(false);
   let dataToShow = filteredData[category];
-
+  useEffect(() => {
+    localStorage.removeItem("card");
+  }, []);
   if (pathname === "/shortlist") {
     const shortlist = getItem("shortlist");
     dataToShow = filteredData[category].filter((item) =>
@@ -38,7 +35,6 @@ export function HeroContainer({ category }) {
           {dataToShow.map((card, i) => (
             <Hero.Card
               onClick={() => {
-                localStorage.setItem("card", JSON.stringify(card));
                 sliderRef.current.goToSlide(i);
                 setShow(true);
               }}
