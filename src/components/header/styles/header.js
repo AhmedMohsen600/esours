@@ -46,7 +46,12 @@ export const FilterButton = styled.button`
   font-weight: 400;
   cursor: pointer;
   color: #000000;
-  border: ${({ active }) => (active ? `0.2vw solid #030303` : `0.1vw`)};
+  border: ${({ active }) => (active ? `0.2vw solid #030303` : `0.1vw solid #b1b1b1`)};
+  :hover{
+    
+    border: ${({ active }) => (active ? `0.2vw solid #030303` : `0.1vw solid #030303`)};
+  }
+
 `;
 
 export const PageTitle = styled.h3`
@@ -72,6 +77,9 @@ export const Link = styled(ReactRouterLink)`
   line-height: 1.2;
   cursor: pointer;
   border-bottom: ${({ selected }) => (selected ? "2px solid #ffc500" : "")};
+  :hover {
+    border-bottom: 2px solid #ffc500;
+  }
 `;
 
 export const Logo = styled.h1`

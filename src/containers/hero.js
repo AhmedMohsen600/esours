@@ -25,8 +25,6 @@ export function HeroContainer({ category }) {
     );
   }
 
-  // console.log({ filteredData: filteredData[category], category });
-
   return (
     <>
       <Hero>
