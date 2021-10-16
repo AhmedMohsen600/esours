@@ -6,7 +6,6 @@ import {
   Switch,
 } from "react-router-dom";
 import { Home, Shortlisted, Rejected } from "./pages";
-import newData from "./data/newData.json";
 // import koko from "./data/csvjson.json";
 function App() {
   // let i = 0;
