@@ -15,13 +15,13 @@ export function HeaderContainer({ setSlides, category, setCategory }) {
             ></path>
           </svg>
           <Header.Group>
-            <Header.Link
+            {/* <Header.Link
               selected={pathname === "/all-submitions" ? true : false}
               to="/all-submitions"
             >
               All submitions
             </Header.Link>
-            <Header.Link
+            {/* <Header.Link
               selected={pathname === "/shortlist" ? true : false}
               to="/shortlist"
             >
@@ -32,7 +32,7 @@ export function HeaderContainer({ setSlides, category, setCategory }) {
               to="/rejected"
             >
               Rejected
-            </Header.Link>
+            </Header.Link> */}
           </Header.Group>
         </Header.Inner>
       </Header.Frame>
