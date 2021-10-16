@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useRef, useState } from "react";
 import { useLocation } from "react-router";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
 import filteredData from "../data/newData.json";
@@ -9,8 +9,8 @@ export function HeroContainer({ category }) {
   //   JSON.parse(localStorage.getItem("card")) || {}
   // );
 
-  const [control, setControll] = useState(filteredData);
   const { pathname } = useLocation();
+  const sliderRef = useRef(null);
 
   let dataToShow = filteredData[category];
 
@@ -35,11 +35,11 @@ export function HeroContainer({ category }) {
       <Hero>
         <ClientModal.LockBody show={show} />
         <Hero.CardsHolder>
-          {dataToShow.map((card) => (
+          {dataToShow.map((card, i) => (
             <Hero.Card
               onClick={() => {
                 localStorage.setItem("card", JSON.stringify(card));
-                // setCardOjb(card);
+                sliderRef.current.goToSlide(i);
                 setShow(true);
               }}
               key={card.id}
@@ -67,7 +67,7 @@ export function HeroContainer({ category }) {
         </Hero.CardsHolder>
       </Hero>
       <ClientModal show={show}>
-        <SliderHolder>
+        <SliderHolder reff={sliderRef}>
           {filteredData[category]
             ? filteredData[category].map((product) => (
                 <ClientModal.Inner key={product.id} show={show}>

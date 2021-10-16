@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import styled from "styled-components/macro";
 import { SmallImage } from "../index";
 import { CustomRightArrow, CustomLeftArrow } from "../index";
-export default function Slider({ children }) {
+export default function Slider({ children, reff }) {
   const responsive = {
     desktop: {
       breakpoint: { max: 5000, min: 1024 },
@@ -21,6 +21,7 @@ export default function Slider({ children }) {
   return (
     <SliderHolder>
       <Carousel
+        ref={reff}
         showDots={false}
         draggable={false}
         arrows={true}
