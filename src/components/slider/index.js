@@ -21,7 +21,7 @@ export default function Slider({ children }) {
   return (
     <SliderHolder>
       <Carousel
-        customDot={SmallImage}
+        showDots={false}
         draggable={false}
         arrows={true}
         responsive={responsive}

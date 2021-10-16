@@ -6,33 +6,63 @@ import {
   Switch,
 } from "react-router-dom";
 import { Home, Shortlisted, Rejected } from "./pages";
-import koko from "./data/csvjson.json";
+import newData from "./data/newData.json";
+// import koko from "./data/csvjson.json";
 function App() {
-  const data = {
-    all: [],
-    furniture: [],
-    lighting: [],
-    accessories: [],
-    textile: [],
-    materials: [],
-  };
+  // let i = 0;
+  // const data = {
+  //   all: [],
+  //   furniture: [],
+  //   lighting: [],
+  //   accessories: [],
+  //   textile: [],
+  //   materials: [],
+  // };
 
-  for (let { id, productName, img, category } of koko) {
-    const categories = category.split(",").map((cat) => cat.trim());
-    const itemObj = {
-      id,
-      productName,
-      img,
-      categories,
-    };
+  // for (let {
+  //   id,
+  //   productName,
+  //   image,
+  //   images,
+  //   Category,
+  //   a1,
+  //   a2,
+  //   q1,
+  //   q2,
+  //   q3,
+  //   q4,
+  //   q5,
+  //   q6,
+  //   q7,
+  //   q8,
+  // } of newData) {
+  //   const categories = Category.split(",").map((cat) => cat.trim());
+  //   const pictures = images.split("\n");
+  //   const itemObj = {
+  //     id,
+  //     productName,
+  //     img: image,
+  //     images: pictures,
+  //     a1,
+  //     a2,
+  //     q1,
+  //     q2,
+  //     q3,
+  //     q4,
+  //     q5,
+  //     q6,
+  //     q7,
+  //     q8,
+  //     categories,
+  //   };
 
-    data.all.push(itemObj);
-    // console.log({ categories });
-    for (let category of categories) {
-      if (category.toLowerCase().trim() === "n/a") continue;
-      data[category.toLowerCase().trim()].push(itemObj);
-    }
-  }
+  //   data.all.push(itemObj);
+  //   // console.log({ categories });
+  //   for (let category of categories) {
+  //     if (category.toLowerCase().trim() === "n/a") continue;
+  //     data[category.toLowerCase().trim()].push(itemObj);
+  //   }
+  // }
 
   // console.log(JSON.stringify(data, "", 4));
 
