@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import { Home, Shortlisted, Rejected } from "./pages";
 // import koko from "./data/csvjson.json";
+// import newData from "./data/fuckData.json";
 function App() {
-  // let i = 0;
   // const data = {
   //   all: [],
   //   furniture: [],
@@ -21,7 +21,7 @@ function App() {
   // for (let {
   //   id,
   //   productName,
-  //   image,
+  //   img,
   //   images,
   //   Category,
   //   a1,
@@ -33,14 +33,14 @@ function App() {
   //   q5,
   //   q6,
   //   q7,
-  //   q8,
+  //   a8,
   // } of newData) {
   //   const categories = Category.split(",").map((cat) => cat.trim());
   //   const pictures = images.split("\n");
   //   const itemObj = {
   //     id,
   //     productName,
-  //     img: image,
+  //     img,
   //     images: pictures,
   //     a1,
   //     a2,
@@ -51,7 +51,7 @@ function App() {
   //     q5,
   //     q6,
   //     q7,
-  //     q8,
+  //     q8: a8,
   //     categories,
   //   };
 

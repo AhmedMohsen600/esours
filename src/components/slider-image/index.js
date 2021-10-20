@@ -17,7 +17,7 @@ export default function SliderImage({ children }) {
   };
   return (
     <Carousel
-      //   customRightArrow={RightButton}
+      // customRightArrow={RightButton}
       customDot={SmallImage}
       responsive={responsive}
       draggable={true}

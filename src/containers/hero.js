@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
-import filteredData from "../data/newData.json";
+import filteredData from "../data/fuckData.json";
 import { getItem } from "../lib/helper";
 export function HeroContainer({ category }) {
   const { pathname } = useLocation();
