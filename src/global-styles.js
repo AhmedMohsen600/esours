@@ -12,10 +12,14 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
    
  }
+ button {
+    cursor: pointer;
+ }
  .active {
     transform: scale(1.3);
     outline: 1px solid yellow;
  }
+
  .react-multi-carousel-list{
     width: 100% ;
     height: 100%;
