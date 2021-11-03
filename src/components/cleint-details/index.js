@@ -14,7 +14,7 @@ import {
 
 export default function ClientModal({ children, ...restProps }) {
   return (
-    <Container className="dark" {...restProps}>
+    <Container className="shadow" {...restProps}>
       {children}
     </Container>
   );

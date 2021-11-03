@@ -56,7 +56,13 @@ export function HeroContainer({ category }) {
           ))}
         </Hero.CardsHolder>
       </Hero>
-      <ClientModal show={show}>
+      <ClientModal
+        onClick={(e) => {
+          if (e.target.classList.contains("react-multi-carousel-item--active"))
+            setShow(false);
+        }}
+        show={show}
+      >
         <SliderHolder reff={sliderRef}>
           {filteredData[category]
             ? filteredData[category].map((product) => (

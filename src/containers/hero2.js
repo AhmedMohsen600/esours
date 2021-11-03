@@ -56,7 +56,13 @@ export function HeroContainer2({ category }) {
           ))}
         </Hero.CardsHolder>
       </Hero>
-      <ClientModal onClick={() => setShow(false)} show={show}>
+      <ClientModal
+        onClick={(e) => {
+          if (e.target.classList.contains("react-multi-carousel-item--active"))
+            setShow(false);
+        }}
+        show={show}
+      >
         <SliderHolder reff={sliderRef}>
           {shortListFilter[category]
             ? shortListFilter[category].map((product) => (
@@ -68,9 +74,7 @@ export function HeroContainer2({ category }) {
                       flexDirection: "column",
                       justifyContent: "flex-end",
                     }}
-                  >
-                    {/* <ClientModal.Close onClick={() => setShow(false)} /> */}
-                  </div>
+                  ></div>
                   <ClientModal.Info>
                     <Hero.CleintId>#{product.id || ""}</Hero.CleintId>
                     <Hero.ProductName>
