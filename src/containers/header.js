@@ -15,19 +15,19 @@ export function HeaderContainer({ category, setCategory }) {
             ></path>
           </svg>
           <Header.Group>
-            {/* <Header.Link
+            <Header.Link
               selected={pathname === "/all-submitions" ? true : false}
               to="/all-submitions"
             >
-              All submitions
+              Submissions
             </Header.Link>
-            {/* <Header.Link
+            <Header.Link
               selected={pathname === "/shortlist" ? true : false}
               to="/shortlist"
             >
               Shortlisted
             </Header.Link>
-            <Header.Link
+            {/* <Header.Link
               selected={pathname === "/rejected" ? true : false}
               to="/rejected"
             >
@@ -39,7 +39,7 @@ export function HeaderContainer({ category, setCategory }) {
       <Header.Nav>
         <Header.PageTitle>
           {pathname === "/all-submitions"
-            ? "All submissions"
+            ? "Submissions"
             : pathname.slice(1).replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())}
         </Header.PageTitle>
         <Header.Group>

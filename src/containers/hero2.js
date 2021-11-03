@@ -1,18 +1,18 @@
 import React, { useRef, useState } from "react";
+// import { useLocation } from "react-router";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
-import filteredData from "../data/fuckData.json";
-// import shortListFilter from "../data/shortList.json";
+// import filteredData from "../data/fuckData.json";
+import shortListFilter from "../data/shortList.json";
 // import { addItemToList, getItem } from "../lib/helper";
-export function HeroContainer({ category }) {
-  // const { pathname } = useLocation();
+export function HeroContainer2({ category }) {
+  //   const { pathname } = useLocation();
   const sliderRef = useRef(null);
   const [show, setShow] = useState(false);
 
-  let dataToShow = filteredData[category];
-
-  // if (pathname === "/shortlist") {
-  //   dataToShow = shortListFilter[category];
-  // }
+  //   let dataToShow = filteredData[category];
+  //   if (pathname === "/shortlist") {
+  //     dataToShow = shortListFilter[category];
+  //   }
 
   // if (pathname === "/rejected") {
   //   const rejectedList = getItem("rejected");
@@ -26,7 +26,7 @@ export function HeroContainer({ category }) {
       <Hero>
         <ClientModal.LockBody show={show} />
         <Hero.CardsHolder>
-          {dataToShow.map((card, i) => (
+          {shortListFilter[category].map((card, i) => (
             <Hero.Card
               onClick={() => {
                 sliderRef.current.goToSlide(i);
@@ -56,10 +56,10 @@ export function HeroContainer({ category }) {
           ))}
         </Hero.CardsHolder>
       </Hero>
-      <ClientModal show={show}>
+      <ClientModal onClick={() => setShow(false)} show={show}>
         <SliderHolder reff={sliderRef}>
-          {filteredData[category]
-            ? filteredData[category].map((product) => (
+          {shortListFilter[category]
+            ? shortListFilter[category].map((product) => (
                 <ClientModal.Inner key={product.id} show={show}>
                   <div
                     style={{
