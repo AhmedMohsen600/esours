@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
-import filteredData from "../data/fuckData.json";
+import filteredData from "../data/shortList.json";
 // import shortListFilter from "../data/shortList.json";
 // import { addItemToList, getItem } from "../lib/helper";
 export function HeroContainer({ category }) {

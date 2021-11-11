@@ -16,17 +16,18 @@ export function HeaderContainer({ category, setCategory }) {
           </svg>
           <Header.Group>
             <Header.Link
-              selected={pathname === "/all-submitions" ? true : false}
-              to="/all-submitions"
+              selected={pathname === "/winners" ? true : false}
+              to="/winners"
             >
-              Submissions
+              Winners
             </Header.Link>
             <Header.Link
-              selected={pathname === "/shortlist" ? true : false}
-              to="/shortlist"
+              selected={pathname === "/recommend" ? true : false}
+              to="/recommend"
             >
-              Shortlisted
+              Recommend by esorus team
             </Header.Link>
+
             {/* <Header.Link
               selected={pathname === "/rejected" ? true : false}
               to="/rejected"
@@ -38,9 +39,7 @@ export function HeaderContainer({ category, setCategory }) {
       </Header.Frame>
       <Header.Nav>
         <Header.PageTitle>
-          {pathname === "/all-submitions"
-            ? "Submissions"
-            : pathname.slice(1).replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())}
+          {pathname === "/winners" ? "Winners" : "Recommend by esorus team"}
         </Header.PageTitle>
         <Header.Group>
           <Header.FilterButton
