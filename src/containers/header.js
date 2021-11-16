@@ -21,12 +21,12 @@ export function HeaderContainer({ category, setCategory }) {
             >
               Shortlist
             </Header.Link>
-            <Header.Link
+            {/* <Header.Link
               selected={pathname === "/favour" ? true : false}
               to="/favour"
             >
               Favour list
-            </Header.Link>
+            </Header.Link> */}
 
             {/* <Header.Link
               selected={pathname === "/rejected" ? true : false}
