@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 // import { useLocation } from "react-router";
 import { Hero, ClientModal, SliderHolder, MyImage } from "../components";
 // import filteredData from "../data/fuckData.json";
-import shortListFilter from "../data/recommend.json";
+import shortListFilter from "../data/fuckData.json";
 // import { addItemToList, getItem } from "../lib/helper";
 export function HeroContainer2({ category }) {
   //   const { pathname } = useLocation();

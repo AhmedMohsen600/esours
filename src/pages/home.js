@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HeaderContainer } from "../containers/header";
-import { HeroContainer } from "../containers/hero";
+import { HeroContainer2 } from "../containers/hero2";
 // import { getItem, setItem } from "../lib/helper";
 export default function Home() {
   const [category, setCategory] = useState("all");
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <HeaderContainer setCategory={setCategory} category={category} />
-      <HeroContainer category={category} setCategory={setCategory} />
+      <HeroContainer2 category={category} setCategory={setCategory} />
     </>
   );
 }

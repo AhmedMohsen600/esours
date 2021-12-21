@@ -68,17 +68,17 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/shortlist">
+        <Route exact path="/all-submissions">
           <Home />
         </Route>
-        <Route exact path="/favour">
+        <Route exact path="/shortlist">
           <Shortlisted />
         </Route>
         <Route exact path="/rejected">
           <Rejected />
         </Route>
       </Switch>
-      <Redirect path="/" to="/shortlist" />
+      <Redirect path="/" to="/all-submissions" />
     </Router>
   );
 }
